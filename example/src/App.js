@@ -4,7 +4,11 @@ import { ExampleComponent } from 'github-card'
 import 'github-card/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return  (<div>
+    < ExampleComponent showFollowers={true} hello="hello" username="yazanalmatar99" />
+    </div>
+
+  ) 
 }
 
 export default App

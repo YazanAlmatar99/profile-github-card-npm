@@ -1,6 +1,11 @@
 import React from 'react'
-import styles from './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+import Card from './components/Card'
+
+export const ExampleComponent = ({ username }) => {
+  return (
+    <div>
+    <Card username = {username}/>
+    </div>
+  )
 }
