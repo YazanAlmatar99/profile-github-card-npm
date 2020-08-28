@@ -1,10 +1,10 @@
 import React from 'react'
-
+import styles from './styles.module.css'
 import Card from './components/Card'
 
-export const ExampleComponent = ({ username }) => {
+export const GitHubCard = ({ username }) => {
   return (
-    <div>
+    <div className={styles.test}>
     <Card username = {username}/>
     </div>
   )

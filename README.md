@@ -1,4 +1,4 @@
-# github-card
+# profile-github-card
 
 > Create GitHub card for your GitHub Account
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save github-card
+npm install --save profile-github-card
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save github-card
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'github-card'
-import 'github-card/dist/index.css'
+import GitHubCard from 'profile-github-card'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent username={GitHub UserName}/>
   }
 }
 ```
@@ -28,3 +27,4 @@ class Example extends Component {
 ## License
 
 MIT © [YazanAlmatar99](https://github.com/YazanAlmatar99)
+Contact Me © [YazanAlmatar99](http://www.yazanalmatar.com)

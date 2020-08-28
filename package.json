@@ -1,10 +1,13 @@
 {
-  "name": "github-card",
-  "version": "1.0.0",
+  "name": "profile-github-card",
+  "version": "1.0.7",
   "description": "Create GitHub card for your GitHub Account",
   "author": "YazanAlmatar99",
   "license": "MIT",
-  "repository": "YazanAlmatar99/github-card",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YazanAlmatar99/github-card.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +52,16 @@
   },
   "files": [
     "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/YazanAlmatar99/profile-github-card-npm/issues"
+  },
+  "homepage": "https://github.com/YazanAlmatar99/profile-github-card-npm#readme",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "keywords": [
+    "Github"
   ]
 }

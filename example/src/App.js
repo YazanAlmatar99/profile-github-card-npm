@@ -1,14 +1,13 @@
 import React from 'react'
 
-import { ExampleComponent } from 'github-card'
+import { GitHubCard } from 'github-card'
 import 'github-card/dist/index.css'
 
 const App = () => {
   return  (<div>
-    < ExampleComponent showFollowers={true} hello="hello" username="yazanalmatar99" />
+     <GitHubCard username="yazanalmatar99" va ="hello"/>
     </div>
-
   ) 
 }
 
-export default App
+export default App;
